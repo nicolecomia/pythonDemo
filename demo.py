@@ -1,34 +1,34 @@
 import random
-# Demo of basic input in python
-# name = input("Enter your name: ")
-# print("Hello " + name)
+#Demo of basic input in python
+name = input("Enter your name: ")
+print("Hello " + name)
 
 # Demo of a program that computes for an area of a circle
-# radius = float(input("Enter the radius: "))
-# area = 3.14 * (radius**2)
-# print("The area of the Circle is: " + str(area))
+radius = float(input("Enter the radius: "))
+area = 3.14 * (radius**2)
+print("The area of the Circle is: " + str(area))
 
 # Demo of a program that computes for a volume of a cylinder
-# radius = float(input("Enter the Radius: "))
-# height = float(input("Enter the Height: "))
-# volume = 3.14 *(radius**2 * height)
-# print("The Volume of the Cylinder: " + str(volume))
+radius = float(input("Enter the Radius: "))
+height = float(input("Enter the Height: "))
+volume = 3.14 *(radius**2 * height)
+print("The Volume of the Cylinder: " + str(volume))
 
 #Demo for array 
-# fruits = ["apple", "banana", "cherry", "strawberry", "melon", "watermelon"]
-# print(fruits[0])
-# print(fruits[1])
-# print(fruits[2])
+fruits = ["apple", "banana", "cherry", "strawberry", "melon", "watermelon"]
+print(fruits[0])
+print(fruits[1])
+print(fruits[2])
 
 #Demo for for Loop
-# for x in fruits:
-#     print(x)
+for x in fruits:
+    print(x)
 
-# i = 0
-# while i < 10:
-#     print("Hello World")
-#     print(i)
-#     i = i + 1
+ i = 0
+ while i < 10:
+     print("Hello World")
+     print(i)
+     i = i + 1
 
 
 
@@ -55,7 +55,7 @@ while character_health > 0:
     if v == 1: 
         choice = input("If you want to go fishing select [1 for yes/ 0 for no]")
         if choice == "1":
-            #Fishing minigame
+            Fishing minigame
             print("You have chosen Fishing! ")
             chance = random.randint(0,9)
             if chance > 6:
@@ -83,10 +83,3 @@ while character_health > 0:
     print("Your character's Health: " + str(character_health))
 
 print("Your Character is dead!")
-
-
-
-
-
-
-
